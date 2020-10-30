@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/app.css" />
+</head>
+<body>
+    <h2>POKEMON PLAYER SIGNIN</h2>
+    <div id = "login">
+    <h1>Already have an account? Login</h1>
+    <form action="/players/login" method="POST">
+        Username: <input type="text" name ="name"  /><br/>
+        Password: <input type="text" name= "password"  /><br/>
+        <input type="submit" name="" value="Login"/>
+    </form>
+    </div>
+    <div id = "signup">
+    <h1>No Account? Sign Up</h1>
+    <form action="/players/signup" method="POST">
+        Username: <input type="text" name = "name"  /><br/>
+        Password: <input type="text" name ="password"  /><br/>
+        Email: <input type="text" name = "email"  /><br/>
+        <input type="submit" name="" value="Create Player"/>
+    </form>
+    
+    </div>
+</body>
+</html>

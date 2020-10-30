@@ -1,0 +1,51 @@
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+body{
+    background-image: url("https://www.ssbwiki.com/images/7/73/SSBU-Pok%C3%A9mon_Stadium_2.png");
+    background-size:cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    font-size:90px;
+    color: yellow;
+    position:fixed;
+    font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); 
+}
+.pokeTitle{
+    font-size: 30px;
+    color: yellow;
+
+}
+form{
+    font-size: 20px;
+}
+nav{
+    text-align: center;
+    font-size:20px;
+    color: yellow;
+    position:fixed;
+    margin-top: 220px;
+}
+.nav{
+    color: yellow;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    /* display: inline; */
+    white-space:nowrap;
+}
+li{
+  
+    text-align: center;
+    /* display:inline; */
+    position:center;
+}
+a{
+    color: white;
+}
+.new{
+    position: center;
+    vertical-align: middle;
+    
+}
